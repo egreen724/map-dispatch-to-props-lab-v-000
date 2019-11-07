@@ -53,5 +53,5 @@ const mapStateToProps = state => {
   return { restaurants: state.restaurants }
 }
 
-export default connect(mapStateToProps)(RestaurantInput);
+export default connect(mapStateToProps,  { addRestaurant })(RestaurantInput);
 
